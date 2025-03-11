@@ -33,6 +33,10 @@ const App = () => {
         </button>
         {/* Show the login form based on the showLogin state */}
         <div className={`text ${showLogin ? 'show-hide' : ''}`}>
+          <h2>
+            LOGIN ID:luminous,
+            Password : luminous
+          </h2>
           <a href="#">Login</a>
           <hr />
           <br />
